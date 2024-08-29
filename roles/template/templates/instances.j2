@@ -4,15 +4,15 @@
 <tbody>
   <tr>
     <th class="instance_info">Name</th>
-    <th class="instance_info">OpenSCAP</th>
+    <th class="instance_info">OpenSCAP Report(s)</th>
     <th class="instance_info">Webserver</th>
     <th class="instance_info">ID</th>
     <th class="instance_info">VPC ID</th>
     <th class="instance_info">Tag(s)</th>
     <th class="instance_info">Tag Policy Violations</th>
-    <th class="instance_info">Firewalld Status</th>
+    <th class="instance_info">Firewall Security (Firewalld)</th>
     <th class="instance_info">MOTD Status</th>
-    <th class="instance_info">SELinux</th>
+    <th class="instance_info">Linux Security (SELinux)</th>
   </tr>
   {% for instance in value.ec2_instance_info.instances %}
   <tr>
